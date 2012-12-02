@@ -1,0 +1,31 @@
+name = Default
+description = An improved installation profile.
+core = 7.x
+
+distribution_name = Default
+
+; Required modules (Core)
+dependencies[] = block
+dependencies[] = contextual
+dependencies[] = dblog
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = help
+dependencies[] = image
+dependencies[] = menu
+dependencies[] = path
+dependencies[] = search
+
+; Required modules (Contrib)
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+dependencies[] = backup_migrate
+dependencies[] = coffee
+dependencies[] = ds
+dependencies[] = ds_extras
+dependencies[] = ds_search
+dependencies[] = pathologic
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = globalredirect
+dependencies[] = transliteration
