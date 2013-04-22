@@ -11,7 +11,7 @@
  *
  * @see system_install()
  */
-function default_install() {
+function loom_install() {
   // Add text formats.
   $filtered_html_format = array(
     'format' => 'filtered_html',
