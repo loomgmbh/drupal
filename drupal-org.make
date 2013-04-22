@@ -39,10 +39,8 @@ projects[] = pathauto
 projects[] = token
 
 ; Other
-projects[] = elements
 projects[] = extlink
 projects[] = final_polish
-projects[] = html5_tools
 projects[] = rabbit_hole
 projects[] = shield
 projects[] = transliteration
