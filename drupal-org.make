@@ -46,3 +46,6 @@ projects[] = rabbit_hole
 projects[] = shield
 projects[] = transliteration
 projects[] = webform
+
+; Theme
+projects[] = shiny
