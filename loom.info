@@ -1,8 +1,8 @@
-name = Default
-description = An improved installation profile.
+name = LOOM
+description = A customized installation profile.
 core = 7.x
 
-distribution_name = Default
+distribution_name = LOOM
 
 ; Required modules (Core)
 dependencies[] = block
