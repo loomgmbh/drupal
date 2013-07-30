@@ -13,6 +13,7 @@ projects[] = module_filter
 projects[] = ds
 projects[] = pathologic
 projects[] = ctools
+projects[] = context
 projects[] = views
 
 ; Development
