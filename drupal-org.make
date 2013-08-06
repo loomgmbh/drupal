@@ -7,18 +7,16 @@ projects[] = backup_migrate
 projects[] = coffee
 projects[] = module_filter
 
-; Content
-projects[] = ds
-projects[] = pathologic
-projects[] = ctools
-projects[] = context
-projects[] = views
-
 ; Development
 projects[] = devel
 projects[] = search_krumo
 projects[] = l10n_update
 projects[] = stage_file_proxy
+
+; Features
+;projects[] = features
+;projects[] = strongarm
+;projects[] = diff
 
 ; Internationalization
 projects[] = entity_translation
