@@ -20,11 +20,6 @@ projects[] = search_krumo
 projects[] = l10n_update
 projects[] = stage_file_proxy
 
-; Features
-;projects[] = features
-;projects[] = strongarm
-;projects[] = diff
-
 ; Internationalization
 projects[] = entity_translation
 projects[] = i18n
@@ -45,3 +40,6 @@ projects[] = rabbit_hole
 projects[] = shield
 projects[] = transliteration
 projects[] = webform
+
+; Theme
+projects[] = shiny
