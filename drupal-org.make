@@ -1,7 +1,7 @@
 api = 2
 core = 7.x
 
-;defaults[projects][subdir] = contrib
+projects[drupal][type] = core
 
 ; Administration
 projects[] = admin_menu
