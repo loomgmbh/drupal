@@ -1,7 +1,5 @@
-api = 2
 core = 7.x
-
-projects[drupal][type] = core
+api = 2
 
 ; Administration
 projects[] = admin_menu
