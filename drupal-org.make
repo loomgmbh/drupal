@@ -14,6 +14,12 @@ projects[] = ctools
 projects[] = context
 projects[] = views
 
+; Development
+projects[] = devel
+projects[] = search_krumo
+projects[] = l10n_update
+projects[] = stage_file_proxy
+
 ; Features
 ;projects[] = features
 ;projects[] = strongarm
