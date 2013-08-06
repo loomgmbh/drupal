@@ -1,5 +1,5 @@
-api = 2
 core = 7.x
+api = 2
 
 ; Drupal core
 includes[] = https://raw.github.com/loomgmbh/drupal/master/drupal-org-core.make
