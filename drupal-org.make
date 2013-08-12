@@ -44,7 +44,7 @@ projects[] = final_polish
 projects[] = rabbit_hole
 projects[] = shield
 projects[] = transliteration
-projects[] = webform
+projects[webform] = 7.x-4.x-dev
 
 ; Theme
 projects[] = shiny
