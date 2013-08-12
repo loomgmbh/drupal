@@ -26,6 +26,7 @@ dependencies[] = ds_extras
 dependencies[] = ds_search
 dependencies[] = final_polish
 dependencies[] = globalredirect
+dependencies[] = module_filter
 dependencies[] = pathologic
 dependencies[] = shield
 dependencies[] = transliteration
