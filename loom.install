@@ -38,6 +38,11 @@ function loom_install() {
         'weight' => 10,
         'status' => 1,
       ),
+      // Pathauto filter.
+      'pathauto' => array(
+        'weight' => 50,
+        'status' => 1
+      ),
     ),
   );
 
@@ -63,6 +68,11 @@ function loom_install() {
       'filter_htmlcorrector' => array(
         'weight' => 10,
         'status' => 1,
+      ),
+      // Pathauto filter.
+      'pathauto' => array(
+        'weight' => 50,
+        'status' => 1
       ),
     ),
   );
