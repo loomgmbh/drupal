@@ -14,7 +14,6 @@ dependencies[] = help
 dependencies[] = image
 dependencies[] = menu
 dependencies[] = path
-dependencies[] = search
 
 ; Required modules (Contrib)
 dependencies[] = admin_menu
@@ -23,7 +22,6 @@ dependencies[] = backup_migrate
 dependencies[] = coffee
 dependencies[] = ds
 dependencies[] = ds_extras
-dependencies[] = ds_search
 dependencies[] = final_polish
 dependencies[] = globalredirect
 dependencies[] = module_filter
