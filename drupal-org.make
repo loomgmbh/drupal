@@ -9,10 +9,14 @@ projects[] = module_filter
 
 ; Content
 projects[] = ds
-projects[] = pathologic
 projects[] = ctools
 projects[] = context
 projects[] = views
+
+; Content authoring
+projects[] = ckeditor_link
+projects[] = pathologic
+projects[] = wysiwyg
 
 ; Development
 projects[] = devel
@@ -48,3 +52,7 @@ projects[webform] = 7.x-4.x-dev
 
 ; Theme
 projects[] = shiny
+
+; Libraries
+libraries[ckeditor][download][type] = file
+libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.2/ckeditor_4.2_standard.zip
