@@ -173,4 +173,16 @@ function loom_install() {
 
   variable_set('admin_theme', 'shiny');
   variable_set('node_admin_theme', '1');
+  
+  // Set Shield credentials.
+  variable_set('shield_user', 'loom');
+  variable_set('shield_pass', 'loomies');
+  variable_set('shield_print', '');
+  
+  // Module filter dynamic save button.
+  variable_set('module_filter_dynamic_save_position', 1);
+  
+  // Pathauto patterns.
+  variable_set('pathauto_node_pattern', '[node:title]');
+  variable_set('pathauto_user_pattern', '');
 }
