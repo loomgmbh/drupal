@@ -195,4 +195,9 @@ function loom_install() {
   // Pathauto patterns.
   variable_set('pathauto_node_pattern', '[node:title]');
   variable_set('pathauto_user_pattern', '');
+  
+  // Display Suite Field Template.
+  variable_set('ds_extras_field_template', 1);
+  variable_set('ft-default', 'theme_ds_field_reset');
+  
 }
