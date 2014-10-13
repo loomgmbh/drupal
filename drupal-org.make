@@ -48,6 +48,8 @@ projects[] = final_polish
 projects[] = rabbit_hole
 projects[] = shield
 projects[] = transliteration
+projects[] = habitat
+projects[] = reroute_email
 projects[webform] = 4.x-dev
 
 ; Theme
