@@ -1,0 +1,33 @@
+<?php
+
+/**
+ *  Implements hook_menu().
+ */
+function loom_quickbackup_menu() {
+  $items['quickbackup'] = array(
+    'title'           => 'Quickbackup',
+    'access callback' => 'loom_quickbackup_access',
+    'page callback'   => 'loom_quickbackup_backup'
+  );
+
+  return $items;
+}
+
+function loom_quickbackup_access() {
+  $key = isset( $GLOBALS['conf']['quickbackup_key'] ) ? $GLOBALS['conf']['quickbackup_key'] : '';
+
+  if (strlen(trim($key)) == 0 || ! isset( $_GET['key'] ) || ( isset( $_GET['key'] ) && $_GET['key'] != $key )) {
+    return FALSE;
+  }
+
+  return TRUE;
+}
+
+function loom_quickbackup_backup() {
+  backup_migrate_include('profiles', 'destinations');
+
+  $settings                 = _backup_migrate_profile_saved_default_profile('default');
+  $settings->destination_id = array( 'download' );
+
+  backup_migrate_perform_backup($settings);
+}

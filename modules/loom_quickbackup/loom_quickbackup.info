@@ -1,0 +1,6 @@
+name = Quickbackup
+package = LOOM
+description = Helper module to make quick database backups
+core = 7.x
+
+dependencies[] = backup_migrate

@@ -33,3 +33,6 @@ dependencies[] = shield
 dependencies[] = transliteration
 dependencies[] = views
 dependencies[] = views_ui
+
+; Required modules (Custom)
+dependencies[] = loom_quickbackup
